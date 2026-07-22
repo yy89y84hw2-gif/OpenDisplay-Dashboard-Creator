@@ -1,0 +1,19 @@
+title: Minimal Dashboard
+pages:
+  - id: home
+    title: Home
+    layout:
+      rows: 1
+      columns: 1
+      margin: 0
+      spacing: 0
+    widgets:
+      - id: welcome
+        type: TEXT
+        label: Welcome
+        style:
+          font: Inter
+          size: 16
+          color: "#ffffff"
+          bold: true
+          alignment: CENTER
